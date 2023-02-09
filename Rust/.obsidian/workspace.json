@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slices/Slice Questions.md",
+                "file": "Slices/The Slice Type.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slices/Slice Questions.md",
+                "file": "Slices/The Slice Type.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slices/Slice Questions.md",
+                "file": "Slices/The Slice Type.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slices/Slice Questions.md"
+                "file": "Slices/The Slice Type.md"
               }
             }
           }
@@ -161,9 +161,9 @@
   },
   "active": "7d601ed882c6b960",
   "lastOpenFiles": [
+    "Slices/Slice Questions.md",
     "Slices/Slice Example.md",
     "Slices/The Slice Type.md",
-    "Slices/Slice Questions.md",
     "Basics/Integers.md",
     "Other.md",
     "Rust 2.md"

@@ -6,7 +6,7 @@ fn main(){
 
     let tuple = two_sum(&test, 7);
 
-    pritln!("Returned tuple is {} {}", tuple.0, tuple.1);
+    println!("Returned tuple is {} {}", tuple.0, tuple.1);
 }
 
 fn print_type_of<T>(_: &T) {
@@ -23,7 +23,7 @@ fn two_sum(nums: &Vec<i32>, target: i32) -> (i32, i32) {
             if nums[num] + nums[num2] == target {
                 println!("{} + {} = {}", nums[num], nums[num2], target);
 
-                tup
+                return tup;
             }
         }
     }
