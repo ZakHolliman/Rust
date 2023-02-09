@@ -1,4 +1,6 @@
-Slices in Rust let you reference contiguous spaces of memory without accessing the **entire** memory space of the data. Slices are a type of reference, so they **do not** take ownership.
+Slices in Rust let you reference contiguous spaces of memory without accessing the **entire** memory space of the data. 
+
+❗❗❗ **Slices are a type of REFERENCE, so they DO NOT take ownership.**
 
 The most common type of slice is a *String Slice* which lets you access a portion of a given string. If we were to declare a string such as this.
 
@@ -38,3 +40,21 @@ and the "world" slice would look like :
 | 6 | 11 |
 
 Of course, in real memory, the pointer addresses are more complex, but the core concept remains the same.
+
+# Other Slice Types
+
+You can also use Slices to index other data types, such as an array
+
+```Rust
+let a = [1, 2, 3, 4, 5];
+
+let slice = &a[1..3];
+
+assert_eq!(slice, &[2..3]);
+```
+
+
+❗❗❗ **Here, the slice has the TYPE of : &[i32]**
+
+It works the same way a string slice does, by storing a reference to the first element, along with a length.
+

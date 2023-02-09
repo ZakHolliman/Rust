@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "190c44277e9b31ae",
+            "id": "798fd33b6f0cd549",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Slice Type.md",
+                "file": "Slices/The Slice Type.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dd2fe3258f3661e9",
+            "id": "7d601ed882c6b960",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slice Example.md",
+                "file": "Slices/Slice Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slice Example.md",
+                "file": "Slices/Slice Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slice Example.md",
+                "file": "Slices/Slice Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slice Example.md"
+                "file": "Slices/Slice Questions.md"
               }
             }
           }
@@ -159,11 +159,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd2fe3258f3661e9",
+  "active": "7d601ed882c6b960",
   "lastOpenFiles": [
-    "The Slice Type.md",
-    "Slice Example.md",
+    "Slices/Slice Example.md",
+    "Slices/The Slice Type.md",
+    "Slices/Slice Questions.md",
     "Basics/Integers.md",
+    "Other.md",
     "Rust 2.md"
   ]
 }

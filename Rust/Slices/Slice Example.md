@@ -29,7 +29,7 @@ let bytes = s.as_bytes();
 
 The "as_bytes" function is used to convert the string "s" into an array of bytes, so that we can iterate over the string and access it as if it were an array.
 
-Then we have our *for* loop:
+Then we have our for-loop:
 
 ```Rust
 for (i, &item) in bytes.iter().enumerate() { 
@@ -39,4 +39,4 @@ for (i, &item) in bytes.iter().enumerate() {
 	} 
 ```
 
-This for loop enumerates a **tuple** 
+This for loop enumerates a **tuple** pair over this byte array, comparing each item (character) to `b' '` , and when it finds one it returns a slice of 0 up to where we found that `' '` character, giving us the first word of the string.
