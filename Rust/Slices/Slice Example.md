@@ -8,7 +8,7 @@ fn first_word(s: &String) -> &str {
 		if item == b' ' { 
 			return &s[0..i]; 
 		} 
-	} 
+	}
 	
 	&s[..] 
 }
