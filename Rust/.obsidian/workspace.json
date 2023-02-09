@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dc8a9ba31279581b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Structs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4b2238d9ebae197c",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slice Example.md",
+                "file": "Structs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slice Example.md",
+                "file": "Structs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slice Example.md"
+                "file": "Structs.md"
               }
             }
           }
@@ -159,10 +172,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd2fe3258f3661e9",
+  "active": "dc8a9ba31279581b",
   "lastOpenFiles": [
-    "The Slice Type.md",
     "Slice Example.md",
+    "The Slice Type.md",
     "Basics/Integers.md",
     "Rust 2.md"
   ]
