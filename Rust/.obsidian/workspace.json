@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3abd16cea8463d2a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Programming a Guessing Game.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9189a014edf74799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2 - Programming a Guessing Game.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4b2238d9ebae197c",
@@ -86,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "9 - Enums.md",
+                "file": "2 - Programming a Guessing Game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "9 - Enums.md",
+                "file": "2 - Programming a Guessing Game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "9 - Enums.md"
+                "file": "2 - Programming a Guessing Game.md"
               }
             }
           }
@@ -147,17 +171,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eea4a6aa2ea2aa48",
+  "active": "9189a014edf74799",
   "lastOpenFiles": [
-    "8 - Methods.md",
-    "9 - Enums.md",
+    "2.1.md",
     "2 - Programming a Guessing Game.md",
+    "10 - Match Statements.md",
+    "9 - Enums.md",
+    "8 - Methods.md",
     "6 - Structs.md",
     "Slice Example.md",
     "The Slice Type.md",
     "Basics/Integers.md",
-    "Gentle Introduction to Rust/2 - Skimming the Basics.md",
-    "Gentle Introduction to Rust/1 - Intro.md",
-    "Rust 2.md"
+    "Gentle Introduction to Rust/2 - Skimming the Basics.md"
   ]
 }
