@@ -8,31 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "798fd33b6f0cd549",
+            "id": "2ae245943003a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slices/The Slice Type.md",
+                "file": "8 - Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7d601ed882c6b960",
+            "id": "755e902c07ee55fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Slices/The Slice Type.md",
+                "file": "8 - Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eea4a6aa2ea2aa48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9 - Enums.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "4b2238d9ebae197c",
@@ -98,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slices/The Slice Type.md",
+                "file": "9 - Enums.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slices/The Slice Type.md",
+                "file": "9 - Enums.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slices/The Slice Type.md"
+                "file": "9 - Enums.md"
               }
             }
           }
@@ -159,13 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7d601ed882c6b960",
+  "active": "eea4a6aa2ea2aa48",
   "lastOpenFiles": [
-    "Slices/Slice Questions.md",
-    "Slices/Slice Example.md",
-    "Slices/The Slice Type.md",
+    "8 - Methods.md",
+    "2 - Programming a Guessing Game.md",
+    "6 - Structs.md",
+    "Slice Example.md",
+    "The Slice Type.md",
     "Basics/Integers.md",
-    "Other.md",
+    "Gentle Introduction to Rust/2 - Skimming the Basics.md",
+    "Gentle Introduction to Rust/1 - Intro.md",
     "Rust 2.md"
   ]
 }
