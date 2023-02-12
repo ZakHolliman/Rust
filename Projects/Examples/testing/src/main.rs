@@ -1,20 +1,20 @@
 #[derive(Debug)]
-struct Rectangle {
-    width: u32,
-    height: u32,
+enum Message {
+    Quit,
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
 }
 
-impl Rectangle {
-    fn square(size: u32) -> Self {
-        Self {
-            width: size,
-            height: size,
-        }
+impl Message {
+    fn call(&self){
+        println!("{:?}", self);
     }
 }
 
 fn main(){
-    let rect = Rectangle::square(5);
+	let some_number = Some(5);
+    let some_char = Some('e');
 
-    println!("{:?}", rect);
+    let absent_number: Option<i32> = None;
 }

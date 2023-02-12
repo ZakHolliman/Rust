@@ -1,1 +1,1 @@
-/home/elfgoat/Dev/Rust/Projects/Examples/testing/target/debug/testing: /home/elfgoat/Dev/Rust/Projects/Examples/testing/src/main.rs
+C:\Users\Zak\Documents\GitHub\Rust\Projects\Examples\testing\target\debug\testing.exe: C:\Users\Zak\Documents\GitHub\Rust\Projects\Examples\testing\src\main.rs
