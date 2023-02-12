@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dc8a9ba31279581b",
+            "id": "2ae245943003a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Structs.md",
+                "file": "8 - Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "755e902c07ee55fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "8 - Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eea4a6aa2ea2aa48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "9 - Enums.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "right": {
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Structs.md",
+                "file": "9 - Enums.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Structs.md",
+                "file": "9 - Enums.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Structs.md"
+                "file": "9 - Enums.md"
               }
             }
           }
@@ -147,11 +172,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dc8a9ba31279581b",
+  "active": "eea4a6aa2ea2aa48",
   "lastOpenFiles": [
+    "8 - Methods.md",
+    "2 - Programming a Guessing Game.md",
+    "6 - Structs.md",
     "Slice Example.md",
     "The Slice Type.md",
     "Basics/Integers.md",
+    "Gentle Introduction to Rust/2 - Skimming the Basics.md",
+    "Gentle Introduction to Rust/1 - Intro.md",
     "Rust 2.md"
   ]
 }

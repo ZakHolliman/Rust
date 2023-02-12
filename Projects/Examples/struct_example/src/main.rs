@@ -1,18 +1,15 @@
-#[derive (Debug)]
-struct Rectangle {
-    width: u32,
-    height: u32,
+enum Vowel {
+    A, E, I, O, U,
 }
 
-fn main() {
-    let rect1 = Rectangle {
-        width: 34,
-        height: 67
-    };
-
-    println!("rect1 is {:?}", rect1);
+fn print_vowel(vowel: Vowel){
+    println!("{:?}", vowel)
 }
 
-fn area(rectangle: &Rectangle) -> u32 {
-    rectangle.width * rectangle.height
+fn main(){
+    let a = Vowel::A;
+    let e = Vowel::E;
+
+    print_vowel(a);
+    print_vowel(e);
 }

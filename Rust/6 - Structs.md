@@ -184,13 +184,3 @@ fn main() {
 Generally with a struct, we want it to *own* all of the data that it has instances of, for as long as the struct remains valid.
 
 We can, however, store references to data that is owned by something else using "Lifetimes".
-
-
-
-### Derived Traits
-In Rust, we can attach `traits` to something like a struct with the attribute `#[derive(Debug)]`
-
-```Rust
-#[derive(Debug)]
-```
-
