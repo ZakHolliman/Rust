@@ -2,7 +2,8 @@ This chapter is going to work with a hands-on project to learn more about Rust. 
 
 It'll be a guessing game, where a number is randomly generated, and then a user has to guess what the number is.
 
-### Setting up a new project
+<br><br>
+## Setting up a new project
 To set up a new project, go to projects and make a new project with Cargo
 
 ```Rust
@@ -12,12 +13,11 @@ $ cd guessing_game
 
 `cargo new` takes the name of a project as the first argument, and creates a new Cargo directory for it.
 
-### Processing a Guess
+<br><br>
+## Processing a Guess
 The first part of this program is going to be asking a user for input and storing a guess, which looks like this :
 
 ```Rust
-// main.rs
-
 use std::io;
 
 fn main(){
@@ -67,7 +67,38 @@ let mut guess = String::new();
 
 So we need to talk about `variables`.
 
-### Storing Values with Variables
+##### main.rs
+```Rust
+// main.rs
+// This is the first part of the guessing game. It'll print some intro text to the console and then grab user input, and print what they guessed.
+
+use std::io;
+
+fn main(){
+	println!("Guess the number!");
+
+	println!("Please input your guess!");
+
+	let mut guess = String::new();
+
+	io::stdin()
+		.read_line(&mut guess)
+		.expect("Failed to read line");
+
+	println!("You guessed: {guess}")
+}
+```
+
+##### Output
+```
+Guess the number!
+Please input your guess!
+5
+You guessed: 5
+```
+
+<br><br>
+## Storing Values with Variables
 We can create a variable by using the `let` keyword.
 
 ```Rust
@@ -111,8 +142,6 @@ let mut x = 5;
 With this, we can now mutate the data in the variable freely
 
 ```Rust
-// main.rs
-
 fn main(){
 	let mut x = 5;
 	println!("{x}");
@@ -131,7 +160,32 @@ let mut guess = String::new();
 
 It creates a `guess` variable of type `String` that is mutable.
 
-### Receiving User Input
+##### main.rs
+```Rust
+// main.rs
+// Program showing the basic creation of variables, and mutation of a variable using `mut` keyword.
+
+fn main(){
+    let x = 5;
+    println!("Value of x is {x}");
+
+    let mut y = 6;
+    println!("Value of y is {y}");
+    
+    y += 1;
+    println!("Value of y is {y}");
+}
+```
+
+##### Output
+```
+Value of x is 5
+Value of y is 6
+Value of y is 7
+```
+
+<br><br>
+## Receiving User Input
 Our next piece of code looks like this
 
 ```Rust
@@ -143,7 +197,6 @@ This calls the `read_line` method to get user input. We pass the `&mut guess` as
 
 The `&` shows that this is a reference, which is immutable by default, so we write `&mut guess` instead of `&guess`.
 
-### Handling Potential Failure with the Result Type
 Following this line of code, we have
 
 ```Rust
@@ -152,29 +205,74 @@ Following this line of code, we have
 
 When we read something with `read_line`, it returns a `Result` value, which is an enum with two types: `Ok` and `Err`. Like other value types, `Result` has methods defined in it, one of which is `expect`. If the `read_line` method returns an `Err`, `Expect` lets us handle errors that come up.
 
-### Printing Values with `println!` Placeholders
-When we want to print the value of a variable, we use `{}` in the print statement
+##### main.rs
+```Rust
+// main.rs
+// Small program that gets a user's input and prints it back out to the screen.
+
+use std::io;
+
+fn main(){
+    let mut input = String::new();
+
+	io::stdin()
+		.read_line(&mut input)
+		.expect("Failed to read line");
+
+    println!("This is what you typed: {}", input);
+}
+```
+
+##### Output
+```
+asjjsajfjfa
+This is what you typed: asjjsajfjfa
+```
+<br><br>
+## Printing Values with `println!` Placeholders
+When we want to print the value of a variable, we place it inside `{}`.
 
 ```Rust
 println!("You guessed: {guess}");
 ```
 
-This `{}` will read the value of a given variable and print it
+This `{}` will read the value of a given variable and print it. You can also use an empty `{}`, followed by a comma separated list to print more complex things such as expression results.
 
 ```Rust
-// main.rs
-
 fn main() {
 	let x = 5;
 	let y = 10;
 	
-	println!("x = {} and y = {}", x, y);
+	println!("x = {} and y = {}", x, x + y);
 }
 ```
 
 This code would print `x = 5 and y = 10`.
 
-### Testing the First Part
+##### main.rs
+```Rust
+// main.rs
+// Program showing the different methods of printing a variable.
+
+fn main(){
+    let x = 4;
+    let y = 10;
+
+    println!("Printing x with direct value passed: {x}");
+    println!("Printing y with empty brackets: {}", y);
+    println!("Printing result of expression using empty brackets: {}", x + y);
+}
+```
+
+##### Output
+```
+Printing x with direct value passed: 4
+Printing y with empty brackets: 10
+Printing result of expression using empty brackets: 14
+```
+
+<br><br>
+## Testing the First Part
 We can test the first part of the game with
 
 ```Rust
@@ -183,7 +281,8 @@ $ cargo run
 
 Which will build and run the project.
 
-### Generating a Secret Number
+<br><br>
+## Generating a Secret Number
 Next, we'll work on generating a random number. For this we'll use the `rand` crate and generate a number between `1` and `100`.
 
 To add our random functionality, we are going to have to import a Crate. To do this, we go to the `Cargo.toml` file and add this under the `[Dependencies]` header
@@ -205,12 +304,16 @@ Once we've imported the crate, we can use the `rand::thread_rng()` function of r
 let secret_number = rand::thread_rng().gen_range(1..=100);
 ```
 
-### Comparing the Guess to the Secret Number
+##### main.rs
+```Rust
+// main.rs
+// Program showing the random generation of multiple different numbers
+```
+<br><br>
+## Comparing the Guess to the Secret Number
 Now that we have user input and a number, we can compare them.
 
 ```Rust
-// main.rs
-
 use rand::Rng;
 use std::cmp::Ordering;
 use std::io;
@@ -263,7 +366,8 @@ has the potential to fail. Because of this, it also returns a `Result` value,
 which can be handled to execute error handling code. If `parse` can successfully
 convert a number, it will return `Ok`, and if not, it will return `Err`.
 
-### Allowing Multiple Guesses with Looping
+<br><br>
+## Allowing Multiple Guesses with Looping
 The `loop` keyword creates an infinite loop, which we'll use to keep the game running.
 
 ```Rust
@@ -288,7 +392,8 @@ Here we've moved everything from the guess input into the loop function.
 
 It will now continuously poll the user's input until specified otherwise.
 
-### Quitting After a Correct Guess
+<br><br>
+## Quitting After a Correct Guess
 Now we'll tell the game to quit when the user wins by using a `break` statement.
 
 ```Rust
@@ -299,13 +404,15 @@ match guess.cmp(&secret_number){
 	Ordering::Greater => println!("Too big!"),
 	Ordering::Equal => {
 		println!("You win!");
+		break;
 	}
 }
 ```
 
-Adding the break line after the println! makes the program exit the loop.
+Adding the `break` line after the println! makes the program exit the loop.
 
-### Handling Invalid Input
+<br><br>
+## Handling Invalid Input
 We'll also add some error handling for user input validation. Before, we've been crashing the game when the user inputs a non-number, but we don't want to completely crash the game every time this happens. Instead we want to handle the error and simply restore the game to a working point again.
 
 To do this we'll change our `expect` code when we gather our guess from
@@ -351,9 +458,14 @@ information they have.
 
 And with all of this, the guessing game is complete.
 
-Cargo.toml
+<br><br>
+## Final Program
+
+##### Cargo.toml
 ```Rust
 // Cargo.toml
+// Added the `rand = "0.8.3"` crate in order to get `random` functionality
+
 [package]
 name = "testing"
 version = "0.1.0"
@@ -365,9 +477,12 @@ edition = "2021"
 rand = "0.8.3"
 ```
 
-main.rs
+##### main.rs
 ```Rust
 // main.rs
+// This is a guessing game, it first generates a random number between 1 and 100, then
+	// asks the user to input a guess. It will check their guess against the number
+	// telling them to guess higher or lower until they eventually guess correctly.
 
 use rand::Rng;
 use std::cmp::Ordering;
@@ -404,4 +519,21 @@ fn main() {
         }
     }
 }
+```
+
+##### Output
+```
+Guess the number!
+Please input your guess.
+3
+You guessed: 3
+Too small!
+Please input your guess.
+75
+You guessed: 75
+Too big!
+Please input your guess.
+73
+You guessed: 73
+You win!
 ```
