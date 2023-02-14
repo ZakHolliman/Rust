@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Variables.md",
-                "mode": "source",
+                "file": "3. Data Types.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2. Variables.md",
+                "file": "3. Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2. Variables.md",
+                "file": "3. Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2. Variables.md"
+                "file": "3. Data Types.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "2ae245943003a4b5",
   "lastOpenFiles": [
-    "1. Programming a Guessing Game.md",
     "2. Variables.md",
     "Guidelines.md",
+    "3. Data Types.md",
+    "1. Programming a Guessing Game.md",
     "8 - Methods.md",
     "9 - Enums.md",
     "2 - Programming a Guessing Game.md",
     "6 - Structs.md",
     "Slice Example.md",
-    "The Slice Type.md",
-    "Basics/Integers.md"
+    "The Slice Type.md"
   ]
 }
