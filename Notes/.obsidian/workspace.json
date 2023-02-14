@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ae245943003a4b5",
+            "id": "ca456142d165d768",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3. Data Types.md",
-                "mode": "preview",
+                "file": "1. Programming a Guessing Game.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3. Data Types.md",
+                "file": "1. Programming a Guessing Game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3. Data Types.md",
+                "file": "1. Programming a Guessing Game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3. Data Types.md"
+                "file": "1. Programming a Guessing Game.md"
               }
             }
           }
@@ -146,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ae245943003a4b5",
+  "active": "a25294d20dd42d7b",
   "lastOpenFiles": [
-    "2. Variables.md",
-    "Guidelines.md",
+    "5. Control Flow.md",
+    "4. Functions.md",
     "3. Data Types.md",
-    "1. Programming a Guessing Game.md",
-    "8 - Methods.md",
+    "2. Variables.md",
+    "11. Concise Control Flow with `if let`.md",
+    "Guidelines.md",
+    "10. Match Statements.md",
     "9 - Enums.md",
-    "2 - Programming a Guessing Game.md",
-    "6 - Structs.md",
-    "Slice Example.md",
-    "The Slice Type.md"
+    "1. Programming a Guessing Game.md",
+    "8 - Methods.md"
   ]
 }

@@ -9,6 +9,21 @@
       "type": "file",
       "title": "2 - Variables",
       "path": "2. Variables.md"
+    },
+    {
+      "type": "file",
+      "title": "11. Concise Control Flow with `if let`",
+      "path": "11. Concise Control Flow with `if let`.md"
+    },
+    {
+      "type": "file",
+      "title": "3. Data Types",
+      "path": "3. Data Types.md"
+    },
+    {
+      "type": "file",
+      "title": "4. Functions",
+      "path": "4. Functions.md"
     }
   ]
 }
