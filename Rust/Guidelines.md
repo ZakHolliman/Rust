@@ -1,3 +1,9 @@
+* Headers
+* Blocks of runnable code to showcase ideas
+* Runnable code has comments and runs correctly
+* `<br>` put before each main section header
+* Spelling
+
 
 ## Section Titles get h1 size
 

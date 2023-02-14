@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3abd16cea8463d2a",
+            "id": "2ae245943003a4b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guidelines.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8ea80338db262a3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Slices/Slice Example.md",
+                "file": "2 - Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Slices/Slice Example.md",
+                "file": "2 - Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Slices/Slice Example.md",
+                "file": "2 - Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Slices/Slice Example.md"
+                "file": "2 - Variables.md"
               }
             }
           }
@@ -159,17 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8ea80338db262a3e",
+  "active": "a25294d20dd42d7b",
   "lastOpenFiles": [
-    "Slices/Slice Questions.md",
-    "Slices/The Slice Type.md",
-    "2 - Variables.md",
     "1 - Programming a Guessing Game.md",
-    "Slices/Slice Example.md",
+    "2 - Variables.md",
     "Guidelines.md",
-    "Basics/Integers.md",
+    "8 - Methods.md",
+    "9 - Enums.md",
+    "2 - Programming a Guessing Game.md",
     "6 - Structs.md",
-    "2.1.md",
-    "10 - Match Statements.md"
+    "Slice Example.md",
+    "The Slice Type.md",
+    "Basics/Integers.md"
   ]
 }

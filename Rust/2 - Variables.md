@@ -1,6 +1,7 @@
 This chapter is going to go over the most common programming concepts, and show how they are represented in Rust.
 
-### Declaring a Variable
+<br><br>
+## Declaring a Variable
 As mentioned in the previous chapter, variables in Rust are immutable by default in order to encourage safe coding practices, but of course they can also be made mutable as well.
 
 To start, we'll make a new project `cargo new variables`.
@@ -9,36 +10,33 @@ And then add this code
 
 ```Rust
 // main.rs
+// Shows declaring and using a variable
+
+fn main(){
+	let x = 5;
+	println!("The value of x is {x}");
+}
+```
+
+This shows the basic declaration and use of a variable. Now, let's try to change the value in this variable.
+
+``` Rust
+// main.rs
 // Shows a `cannot assign twice to immutable variable` error
 
 fn main(){
 	let x = 5;
 	println!("The value of x is {x}");
-	x = 6;
+	x += 1;
 	println!("The value of x is {x}");
 }
 ```
 
-This first initializes a variable `x` as 5, and then sets `x` to 6. If we were to try and compile this code however, the Rust compiler would throw an immutability error, saying that we are trying to assign an immutable variable twice, which is not allowed.
+When we try to run this, we get a compiler error, saying there is an immutability error, why is this? In Rust, variables are *immutable* by default, meaning their values cannot be changed. If we wanted to be able to change their stored values, we have to add the `mut` keyword when we declare it.
 
-```Rust
-$ cargo run
-Compiling variables v0.1.0 (file:///projects/variables)
-error[E0384]: cannot assign twice to immutable variable `x`
---> src/main.rs:4:5
-|
-2 |     let x = 5;
-|         -
-|         |
-|         first assignment to `x`
-|         help: consider making this binding mutable: `mut x`
-3 |     println!("The value of x is: {x}");
-4 |     x = 6;
-|     ^^^^^ cannot assign twice to immutable variable
-```
-
-### Mutable Variables
-In order to fix this, much like before, we can just add `mut` to the variable.
+<br><br>
+## Mutable Variables
+Let's test that out, adding the `mut` keyword right after `let`.
 
 ```Rust
 // main.rs
@@ -47,21 +45,15 @@ In order to fix this, much like before, we can just add `mut` to the variable.
 fn main() {
 	let mut x = 5;
 	println!("The value of x is {x}");
-	x = 6;
+	x += 1;
 	println!("The value of x is {x}");
 }
 ```
 
-And if we run the program again, we get no errors and this output.
+This lets us mutate the variable how we wanted.
 
-```
-The value of x is 5
-The value of x is 6
-```
-
-Which is what we wanted.
-
-### Constants
+<br><br>
+## Constants
 Constants are similar to variables, in that they are named and have values that can be changed, but there are a few differences.
 
 The first is that you *cannot* use the `mut` keyword with constants, since they are designed to *not be able to change*. Constants can also only be set to the value of a constant expression.
@@ -78,7 +70,20 @@ Constants are valid for the entire program's runtime within their specified scop
 
 `Const` can also be used in a global scope, while `let` can only be used inside of a function.
 
-### Shadowing
+```Rust
+// main.rs
+// Program showcasing a basic const declaration and usage.
+
+fn main(){
+	const PI: f32 = 3.14;
+	let radius : f32 = 5.0;
+
+	println!("Area of a circle with radius: {radius} is: {}", PI * (radius * radius));
+}
+```
+
+<br><br>
+## Shadowing
 You can declare a second variable with the name of another variable that already exists. This is called `Shadowing`. The second variable becomes a shadow of the first, and is the one used whenever the compiler references it from that moment forward. We can shadow a variable by simply using the `let` keyword to define the variable again.
 
 ```Rust
@@ -121,8 +126,7 @@ let spaces = spaces.len();
 
 Here, the first instance of spaces is a string, and the second variable is shadowed as a number.
 
-
-
+<br><br>
 # Question 1
 Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed.
 
@@ -143,7 +147,7 @@ fn main() {
 ##### Answer
 This DOES compile. It prints `1`. The statement `x += 2` only affects the shadowed `x` inside the inner curly braces, not the outer `x` on the second line.
 
-
+<br><br>
 # Question 2
 Determine whether the program will pass the compiler. If it passes, write the expected output of the program if it were executed.
 
