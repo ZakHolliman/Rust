@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2 - Variables.md",
+                "file": "2. Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2 - Variables.md",
+                "file": "2. Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2 - Variables.md",
+                "file": "2. Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2 - Variables.md"
+                "file": "2. Variables.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a25294d20dd42d7b",
+  "active": "2ae245943003a4b5",
   "lastOpenFiles": [
-    "1 - Programming a Guessing Game.md",
-    "2 - Variables.md",
+    "1. Programming a Guessing Game.md",
+    "2. Variables.md",
     "Guidelines.md",
     "8 - Methods.md",
     "9 - Enums.md",
