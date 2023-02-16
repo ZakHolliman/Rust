@@ -1,1 +1,1 @@
-/home/elfgoat/Dev/Rust/Projects/Examples/get_variable_type/target/debug/get_variable_type: /home/elfgoat/Dev/Rust/Projects/Examples/get_variable_type/src/main.rs
+C:\Users\Zak\Documents\GitHub\Rust\Projects\Examples\add_array\target\debug\get_variable_type.exe: C:\Users\Zak\Documents\GitHub\Rust\Projects\Examples\add_array\src\main.rs

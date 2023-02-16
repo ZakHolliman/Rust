@@ -1,29 +1,3 @@
 {
-  "items": [
-    {
-      "type": "file",
-      "title": "2 - Programming a Guessing Game",
-      "path": "1. Programming a Guessing Game.md"
-    },
-    {
-      "type": "file",
-      "title": "2 - Variables",
-      "path": "2. Variables.md"
-    },
-    {
-      "type": "file",
-      "title": "11. Concise Control Flow with `if let`",
-      "path": "Concise Control Flow with `if let`.md"
-    },
-    {
-      "type": "file",
-      "title": "3. Data Types",
-      "path": "3. Data Types.md"
-    },
-    {
-      "type": "file",
-      "title": "4. Functions",
-      "path": "4. Functions.md"
-    }
-  ]
+  "items": []
 }

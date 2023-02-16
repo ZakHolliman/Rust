@@ -1,23 +1,20 @@
-// This is an extremely simple program that simply initializes an array and
-// prints the total of the elements in the array.
+fn main() {
+    let (a, b) : (i32, i32) = (9, 5);
 
-fn main(){
-    let mut total: i32 = 0;
+    let sum = sum_of_squares(a, b);
 
-    let arr = [1, 9, 4, 8, 5];
+    println!("Sum of squares from {} to {} is {}", a, b, sum);
+}
 
-    for int in arr {
-        total += int;
+fn sum_of_squares(a: i32, b: i32) -> i32 {
+    if a > b
+        return 0
+
+    let mut sum = 0;
+
+    for num in a..=b {
+        sum += i32::pow(num, 2);
     }
 
-    println!("Total is: {}", total);
-
-    let mut total_2: i32 = 0;
-
-    let arr2: [i32; 5] = [1, 2, 3, 4, 5];
-
-    for int2 in arr2 {
-        println!("{}", int2);
-    }
-
+    return sum
 }
