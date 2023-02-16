@@ -63,6 +63,14 @@ Here, the slice has the TYPE of `&[i32]`
 
 It works the same way a string slice does, by storing a reference to the first element, along with a length.
 
+
+# Slice Ranges
+
+
+
+# Slice Into Functions
+You can pass a `slice` into a function
+
 <br><br>
 # Questions
 ## Question 1

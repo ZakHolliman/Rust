@@ -340,7 +340,7 @@ fn main() {
 
 Compiler Error
 
-```
+```Rust
 error[E0382]: borrow of partially moved value: `opt`
 --> src/main.rs:10:19
 |

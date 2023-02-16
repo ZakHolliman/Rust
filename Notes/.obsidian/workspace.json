@@ -13,25 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Ownership.md",
+                "file": "Ownership Inventory 1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "80e3c34cd5cda908",
+            "id": "51d65d57b7c5df66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "6. Ownership.md",
+                "file": "7. Managing Projects with Cargo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fdab3a9e7c32a12f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Slices/The Slice Type.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8e0c22f5f12fe9cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ranges.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "6. Ownership.md",
+                "file": "Ranges.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "6. Ownership.md",
+                "file": "Ranges.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "6. Ownership.md"
+                "file": "Ranges.md"
               }
             }
           }
@@ -158,17 +183,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca456142d165d768",
+  "active": "8e0c22f5f12fe9cd",
   "lastOpenFiles": [
-    "5. Control Flow.md",
-    "6. Ownership.md",
-    "2. Variables.md",
-    "?? Concise Control Flow with `if let`.md",
-    "?? Match Statements.md",
-    "?? Enums.md",
-    "?? Methods.md",
-    "??. Structs.md",
+    "Slices/The Slice Type.md",
+    "Slices/Slice Example.md",
+    "Examples/Add Array Elements.md",
     "3. Data Types.md",
-    "4. Functions.md"
+    "7. Managing Projects with Cargo.md",
+    "Ownership Inventory 1.md",
+    "Assorted Methods.md",
+    "Methods.md",
+    "Match Statements.md",
+    "Concise Control Flow with `if let`.md"
   ]
 }

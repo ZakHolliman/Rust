@@ -1,4 +1,4 @@
-Enums, or Enumeratios, allow you to define a type by enumerating possible variants of the type.
+Enums, or Enumerations, allow you to define a type by enumerating possible variants of the type.
 
 ### Declaring an Enum
 Enums are a way of saying that a value is one of a possible set of values.
@@ -14,6 +14,7 @@ enum IpAddrKind {
 
 This `IpAddrKind` is now a custom data type that we can use elsewhere.
 
+<br><br>
 ### Instantiating an Enum
 You can create an instance of an enum variable like this
 
