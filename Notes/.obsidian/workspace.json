@@ -8,31 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dbdb214959fda8cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples/Add Array Elements.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec374b671011bbb9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples/Add Array Elements.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "677e6dde0c870679",
+            "id": "5d2e25b4fadf9d3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,45 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "eddc891a9c0e36e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples/Sum of Squares.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0c521fc44d8ac372",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples/Sum of Squares.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5d2e25b4fadf9d3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Examples/Sum of Squares.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Examples/Sum of Squares.md",
+                "file": "Examples/Getting Type of a Value.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Examples/Sum of Squares.md",
+                "file": "Examples/Getting Type of a Value.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Examples/Sum of Squares.md"
+                "file": "Examples/Getting Type of a Value.md"
               }
             }
           }
@@ -209,15 +148,15 @@
   },
   "active": "5d2e25b4fadf9d3a",
   "lastOpenFiles": [
+    "Examples/Ranges.md",
+    "Examples/Getting Type of a Value.md",
+    "Examples/Declaring Multiple Variables.md",
+    "Structs.md",
     "Examples/Returning Index and Value of Highest Number.md",
-    "Match Statements.md",
-    "5. Control Flow.md",
-    "Concise Control Flow with `if let`.md",
-    "Examples/Sum of Squares.md",
     "Examples/The Parse() Method.md",
-    "1. Programming a Guessing Game.md",
-    "2. Variables.md",
-    "Enums.md",
-    "Structs.md"
+    "Examples/Sum of Squares.md",
+    "Examples/Changing Values Inside of a Function.md",
+    "Examples/Add Array Elements.md",
+    "Examples/Checking if a Value is Greater than Another.md"
   ]
 }

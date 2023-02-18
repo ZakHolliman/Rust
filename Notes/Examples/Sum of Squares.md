@@ -3,6 +3,7 @@ Write a function called `sum_of_squares` that takes two integers `a` and `b` as
 parameters and `returns the sum of squares of all numbers between a and b` 
 (inclusive). If a is greater than b, return 0.
 
+<br><br>
 # Program
 
 ```Rust
@@ -35,7 +36,7 @@ fn sum_of_squares(a: i32, b: i32) -> i32 {
 }
 ```
 
-
+This can be done a bit more 
 
 # Program 2
 ``` Rust
