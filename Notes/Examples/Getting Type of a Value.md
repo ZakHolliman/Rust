@@ -1,6 +1,10 @@
-Sometimes you want to find out what a variable's type is so that you can ensure it is acting as you expect. For this you can use this
+### Done
+Sometimes you want to find out what type a variable holds so that you can ensure it is acting as you expect, or perform some other operation on it. For this you can use this syntax
 
+# Example
 ```Rust
+// main.rs
+
 fn print_type_of<T>(_: &T) {
     println!("{}", std::any::type_name::<T>())
 }
@@ -19,7 +23,7 @@ fn main() {
 }
 ```
 
-Output
+### Output
 ```
 &str
 i32
@@ -32,4 +36,18 @@ playground::main::{{closure}}
 # Breakdown
 The only real thing we pay attention to here is the `print_type_of` function that we've defined. ``
 
-Looking at it, we can see it comes from the `std` library and 
+Looking at the definition of the function
+
+```Rust
+fn print_type_of<T>(_: &T) {
+```
+
+We can see it uses `<T>` as its type, meaning that it can take *any* type. This is also specified in the parameters with `(_: &T)` which means we are being passed a `reference` of `T`.
+
+Inside the function itself is this
+
+```Rust
+println!("{}", std::any::type_name::<T>())
+```
+
+This is a print statement that takes our `<T>` as a parameter. The value is assessed as a member of `std::any::type_name::<T>` which is a std library.

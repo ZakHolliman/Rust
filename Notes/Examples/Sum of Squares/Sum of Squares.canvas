@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"1e4caa18e7b907b9","x":-500,"y":-140,"width":400,"height":240,"type":"file","file":"Examples/Sum of Squares/Sum of Squares.md","subpath":"#[Done] Intro"},
+		{"id":"7a837ebc30ceec0d","x":0,"y":-140,"width":660,"height":740,"color":"3","type":"file","file":"Examples/Sum of Squares/Sum of Squares.md","subpath":"#Program 1"}
+	],
+	"edges":[
+		{"id":"e4247298be94d5df","fromNode":"1e4caa18e7b907b9","fromSide":"right","toNode":"7a837ebc30ceec0d","toSide":"left","color":"3"}
+	]
+}

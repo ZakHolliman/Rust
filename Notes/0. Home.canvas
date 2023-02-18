@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"3a1395eb6d7530b5","x":-341,"y":217,"width":400,"height":400,"color":"2","type":"file","file":"Examples/Changing Values Inside of a Function/Changing Values inside a Function.canvas"},
+		{"id":"f24b4d3aeb2e166f","x":-341,"y":120,"width":400,"height":60,"type":"text","text":"### Changing Values inside a Function"},
+		{"id":"29a73b1ee7e3074b","x":-341,"y":40,"width":250,"height":60,"type":"text","text":"# Examples"},
+		{"id":"298696b20420f9d9","x":140,"y":120,"width":400,"height":60,"type":"text","text":"### Sum of Square"},
+		{"id":"43a1be92fccf7452","x":140,"y":217,"width":400,"height":400,"type":"file","file":"Examples/Sum of Squares/Sum of Squares.canvas"}
+	],
+	"edges":[]
+}
